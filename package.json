@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "index.js"
+  },
+  "name": "kiran",
+  "version": "1.0.0",
+  "description": "assignment1 of the year",
+  "main": "index.js",
+  "author": "kiranmeddou",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "Assignment1"
+  },
+  "keywords": [
+    "mms74717471"
+  ]
+}
