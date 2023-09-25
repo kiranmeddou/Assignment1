@@ -1,0 +1,42 @@
+{
+
+  "scripts": {
+
+    "start": "node app.js"
+
+  },
+
+  "name": "node",
+
+  "version": "1.0.0",
+
+  "description": "assignment1",
+
+  "main": "index.js",
+
+  "repository": {
+
+    "type": "git",
+
+    "url": "Assignment1"
+
+  },
+
+  "keywords": [
+
+    "mms74717471"
+
+  ],
+
+  "author": "kiranmeddou",
+
+  "license": "ISC",
+
+  "dependencies": {
+
+    "express": "^4.18.2"
+
+  }
+
+}
+

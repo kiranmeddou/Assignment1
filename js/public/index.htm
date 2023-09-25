@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tier list Maker</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1>Welcome to Tier list Maker</h1>
+    
+    
+    <button onclick="fetchData(1)">Button 1</button>
+    <button onclick="fetchData(2)">Button 2</button>
+
+
+
+    
+    <div id="result"></div>
+
+    <script>
+        
+        function fetchData(id) {
+            fetch(`/api/data/${id}`)
+                .then(response => response.json())
+                .then(data => {
+                    
+                    document.getElementById('result').innerText = JSON.stringify(data);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+     <a href="/page2.htm">Discover the new page</a>
+     <h2>Here's what you should know about us </h2>
+     <a href="/apropos.htm">About us</a>
+</body>
+</html>
